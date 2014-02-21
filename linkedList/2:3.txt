@@ -1,0 +1,10 @@
+8 bits = 1 byte
+100 int's in memory 400 bytes
+32GB flash 
+10^9 Bytes/G / 4 bytes/int * 32 GB =86*10^9
+know how to convert bytes to integers
+
+float = 4 bytes
+double = 64 bits or 8 bytes
+
+boolean = 1 bit

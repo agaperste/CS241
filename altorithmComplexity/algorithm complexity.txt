@@ -1,0 +1,29 @@
+When developing algorithms, we consider the following factors:
+time, energy, memory
+
+Big O
+How long does it take to run as dataset gets large?
+
+Exercises:
+log(n) + 300n + 5  [O=n]
+300*logn + 500*10 [O= log(n)]
+500nlog(n) + log(n) [O=nlogn]
+
+HIERARCHY OF ORDER:
+O(1) constant
+polynomial:
+     log(n)
+  O(n) linear
+     nlog(n)
+  O(n^2) quadratic
+  O(n^3) cubic
+exponential:
+  O(2^n)
+  O(3^n) is actually the same order as O(2^n), but with a different paste
+  O(n^n) is bigger 
+  [don't pick an algorithm that grows at an exponential rate]
+  
+def forceofattraction:
+    Gravity = (mass1 * mass2) / (rate of attraction) ^2 O(1)
+
+n(n-1)/2 = 1/2 * n^2 * (n-1) --O(n^2) --quadratic algorithms  
