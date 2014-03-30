@@ -149,8 +149,12 @@ class LinkedMatrix (object) :
         return MatrixIterator (self.headnode)
 
 
-    def insertRow(self, rowIndex, defaultValue=None):
+    def insertRow(self, rowIndex, defaultValue= None):
         """inserts a row at the given index, shifting columns if necessary"""
+        
+        if defaultValue is None:
+            defaultValue = self.defaultValue
+            
         if rowIndex > self.numRow or rowIndex < 0:
             raise IndexError 
         
@@ -236,6 +240,10 @@ class LinkedMatrix (object) :
 
     def insertColumn(self, colIndex, defaultValue=None):
         """inserts a column at the given index, shifting columns if necessary"""
+        
+        if defaultValue is None:
+            defaultValue = self.defaultValue
+            
         if colIndex > self.numColumn or colIndex < 0:
             raise IndexError 
         
@@ -415,18 +423,3 @@ class LinkedMatrix (object) :
         
         self.numColumn -= 1
         self.dimensions = (self.numColumn, self.numRow)        
-
-
-"""lm = LinkedMatrix (2, 3, "p")
-print lm
-lm.removeColumn(1)
-print lm
-lm.insertColumn(1, "m")
-print lm"""
-
-"""#lm = LinkedMatrix (3, 2, "p")
-print lm
-lm.removeColumn (1)
-print lm
-lm.insertColumn (1, "m")
-print lm"""

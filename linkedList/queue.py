@@ -75,7 +75,7 @@ if __name__ == "__main__":
     q.push (9)
     q.push (12)
     print str (q)
-    a = q.pop()
+    a = q.pop(2)
 
 
 

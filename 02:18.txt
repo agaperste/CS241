@@ -1,7 +1,0 @@
-complexity for pushing onto queue with array impl: Q(n)
-complexity popping an element from the right O(1)
-complexity for pushing onto queue with linked list O(1)
-
-complexity for popping from linked list O(n) [singly linked list with only a headnode]
-
-complexity for popping from linked list O(1)-doubly linked list with headnode and tailnode

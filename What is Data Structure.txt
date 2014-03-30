@@ -1,4 +1,0 @@
-Abstract data types:
-    eg. stack, queue, linked list, tree, graph
-
-There are certain operations associated with these ADT

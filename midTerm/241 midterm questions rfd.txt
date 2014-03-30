@@ -1,0 +1,24 @@
+1. Algorithm behind practice test 4. (b)?
+
+2. Can we go over funcitonal programming again? eg. filter, map, reduce
+creating an list containing either the number value or the boolean value.
+map (lambda x: x^2, list)
+if x = 1,2,3,4
+then map = 1,4, 9, 16
+
+def tempthreshold (n):
+    return n> 70
+tempinfeb = [30, 40, 50, 72, 30]
+filter (tempthreshold, tempinfeb)
+It would then return [72] because only 72 in the list has a False boolean value. 
+
+mylist = [1,2,3,4,5,6,7]
+def mysum (x, y):
+    return x +y
+reduce(mysum, mylist)
+
+3. number 7, searching?
+
+4. Hashing? 8?
+
+5. standard for the size of a char...etc

@@ -1,0 +1,16 @@
+git init
+git remote add (origin, master)
+git add(origin)
+git commit
+git push (origin, master)
+git pull (origin, master)
+
+git status
+
+for init & remote add, only do it once for each new repository,
+for the rest, do it each time when you want to merge your new version to the working branch of the repository. 
+
+:x save & quit
+:q "!"
+esc quit insert mode
+i start insert mode

@@ -1,0 +1,22 @@
+1. Aliases, deep copy and shallow copy
+Aliases reference to the object. When changing the VALUE of the object the alias is pointing to, it is making a shallow copy. 
+
+2. Is the statement that "astraction allows us to divide and conquer" true?
+
+3. 1)The concept of "encapsulation"
+   2)Are getters and setters helper methods?
+
+4. 1)Overloading is like simplifying the dot method, right?
+   2)What happens if you don't create a method and just use, say ==? Is it then not usable?
+   3)How come if not in a class, functions such as str() is automatically invoked? whereas in a class, you (have to) create the method first?
+   
+5. 1)Is inherentance like braching in GitHub? --Yes.
+   2)When inheriting, has to have super (). function for each method (def)?
+     Not necessary. 
+
+6. Polymorphism.
+
+7. nominal vs. structural system; statc vs. dynamic type checking.
+
+8. Node vs. Arrays [so when using nodes to contruct something, the size can be changed(?) by deleting (severing the connections) in between, but the size of the array doesn't change...]
+
